@@ -6,21 +6,19 @@
 
 Official implementation of our paper on efficient multimodal object detection for remote sensing images using adaptive illumination guidance and transformer-based architecture.
 
-![Method Overview](fig1.png) *(You can add a diagram of your framework here)*
+![Method Overview](fig1.png) 
 
 ## Key Features
 - 🚀 Single backbone network for efficient multimodal (visible + infrared) feature extraction
 - ☀️ Adaptive illumination guidance branch for robust feature learning
 - 🔍 Foreground-aware query refinement module for discriminative object queries
 - ⚖️ Optimal balance between detection accuracy and computational efficiency
-- 🏆 State-of-the-art performance on DroneVehicle and VEDAI datasets
 
 ## Datasets
 Our method has been evaluated on:
 - [DroneVehicle Dataset](https://github.com/VisDrone/DroneVehicle)
 - [VEDAI Dataset](https://downloads.greyc.fr/vedai/)
 
-*(Add specific preparation instructions when code is uploaded)*
 
 ## Installation
 *(Will be updated when code is released)*
@@ -33,10 +31,6 @@ git clone https://github.com/cq100/EIMDet.git
 *(Will be updated when code is released)*
 ```python
 # Sample usage will appear here
-from models import AdaptiveIlluminationDetector
-
-# Initialize model with pretrained weights
-detector = AdaptiveIlluminationDetector(backbone='resnet50')
 
 
 ## Coming Soon
@@ -48,5 +42,3 @@ We're currently finalizing the codebase and documentation. The complete implemen
 - Comprehensive documentation
 
 will be released shortly. Please watch this repository or check back later for updates!
-
-For immediate questions, please contact [your email].
