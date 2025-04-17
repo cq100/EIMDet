@@ -6,7 +6,7 @@
 
 Official implementation of our paper on efficient multimodal object detection for remote sensing images using adaptive illumination guidance and transformer-based architecture.
 
-![Method Overview](assets/pipeline.png) *(You can add a diagram of your framework here)*
+![Method Overview](fig1.png) *(You can add a diagram of your framework here)*
 
 ## Key Features
 - 🚀 Single backbone network for efficient multimodal (visible + infrared) feature extraction
@@ -26,9 +26,7 @@ Our method has been evaluated on:
 *(Will be updated when code is released)*
 ```bash
 # Coming soon
-git clone https://github.com/yourusername/adaptive-illumination-detection.git
-cd adaptive-illumination-detection
-pip install -r requirements.txt
+git clone https://github.com/cq100/EIMDet.git
 ```
 
 ## Usage
